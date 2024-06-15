@@ -1,0 +1,9 @@
+---
+# Installation path for binary.
+oc_client_install_path: "/usr/local/bin"
+
+# OpenShift client version.
+oc_client_version: "latest"
+
+# Download URL for the client.
+oc_client_download_url: "https://mirror.openshift.com/pub/openshift-v4/clients/ocp"

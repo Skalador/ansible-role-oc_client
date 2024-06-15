@@ -1,0 +1,31 @@
+---
+galaxy_info:
+  role_name: 'oc_client'
+  author: 'Kevin Niederwanger'
+  description: 'OpenShift client for Linux.'
+  license: 'Apache-2.0'
+  min_ansible_version: '2.10'
+  platforms:
+    - name: EL
+      versions:
+        - '7'
+        - '8'
+        - '9'
+    - name: Ubuntu
+      versions:
+        - 'all'
+    - name: Debian
+      versions:
+        - 'all'
+    - name: Fedora
+      versions:
+        - 'all'
+  galaxy_tags:
+    - 'openshift'
+    - 'oc'
+    - 'ocp'
+    - 'oc_client'
+    - 'kubernetes'
+    - 'k8s'
+
+dependencies: []
