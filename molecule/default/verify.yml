@@ -1,0 +1,11 @@
+---
+- name: Verify
+  hosts: all
+  tasks:
+    - name: Check if oc is installed
+      command: oc version
+      register: oc_check
+
+    - name: Display verification results
+      debug:
+        msg: "oc is installed with {{ oc_check.stdout }}"
