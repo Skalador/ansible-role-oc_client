@@ -24,8 +24,12 @@ galaxy_info:
     - 'openshift'
     - 'oc'
     - 'ocp'
-    - 'oc_client'
+    - 'occlient'
     - 'kubernetes'
     - 'k8s'
+    - 'linux'
+    - 'ubuntu'
+    - 'fedora'
+    - 'debian'
 
 dependencies: []
