@@ -11,7 +11,11 @@ None.
 Role Variables
 --------------
 
-TBD
+| Variable | Default Value | Description |
+|----------|---------------|-------------|
+| `oc_client_install_path` | `/usr/local/bin` | Installation path for binary. |
+| `oc_client_version` | `latest` | OpenShift client version. |
+| `oc_client_download_url` | `https://mirror.openshift.com/pub/openshift-v4/clients/ocp` | Download URL for the client. |
 
 Dependencies
 ------------
