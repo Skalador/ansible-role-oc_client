@@ -5,6 +5,7 @@ skip_list:
   - experimental
   - fqcn
   - name[missing]
+  - name[template]
   - no-changed-when
   - risky-file-permissions
   - risky-shell-pipe
